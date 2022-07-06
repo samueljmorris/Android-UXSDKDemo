@@ -5,12 +5,12 @@ repositories {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdk 33
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 30
+        minSdkVersion 28
+        targetSdkVersion 33
         multiDexEnabled true
         ndk {
             // On x86 devices that run Android API 23 or above, if the application is targeted with API 23 or
